@@ -207,5 +207,15 @@ with t5:
     st.caption('Recommendations are rule-based decision support, not automatic orders. Below target does not establish an actual stockout.')
 st.divider()
   
-st.markdown('**Built by Vikrant Thenge | Operations & Decision Analytics**  \n[GitHub](https://github.com/Vikrantthenge) · [LinkedIn](https://www.linkedin.com/in/vthenge/)')
+st.markdown("""
+<div style="text-align:center; padding:18px 8px 6px;">
+  <div style="font-weight:700; margin-bottom:12px;">Built by Vikrant Thenge | Operations &amp; Decision Analytics</div>
+  <a href="https://github.com/Vikrantthenge" target="_blank" rel="noopener noreferrer" style="text-decoration:none;display:inline-block;margin:4px;">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/vthenge/" target="_blank" rel="noopener noreferrer" style="text-decoration:none;display:inline-block;margin:4px;">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" />
+  </a>
+</div>
+""", unsafe_allow_html=True)
 st.caption('Portfolio demonstration • Python · Streamlit · Plotly • Forecasting & inventory planning')
