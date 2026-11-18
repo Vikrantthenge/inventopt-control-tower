@@ -218,4 +218,8 @@ st.markdown("""
   </a>
 </div>
 """, unsafe_allow_html=True)
-st.caption('Portfolio demonstration • Python · Streamlit · Plotly • Forecasting & inventory planning')
+st.markdown("""
+<div style="text-align:center; width:100%; padding:4px 8px 12px; color:#777; font-size:0.85rem;">
+  Portfolio demonstration &bull; Python &middot; Streamlit &middot; Plotly &bull; Forecasting &amp; inventory planning
+</div>
+""", unsafe_allow_html=True)
